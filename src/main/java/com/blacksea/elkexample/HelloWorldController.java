@@ -12,7 +12,7 @@ public class HelloWorldController {
 
     @GetMapping("/")
     public String helloWorld() {
-        log.info("Hello world");
+        log.info("Hello World");
         return "spring security example";
     }
 }
